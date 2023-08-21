@@ -1,0 +1,8 @@
+<h1>Card Flipper</h1>
+
+<div class="cardContainer">
+  <div *ngFor="let card of cards; let position = index" (click)="flipCard(position)" class="card"
+    [ngClass]="position === enabledCard ? 'enabled' : 'disabled'">
+    Card {{position}}
+  </div>
+</div>

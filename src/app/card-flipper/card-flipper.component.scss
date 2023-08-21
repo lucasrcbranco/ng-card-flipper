@@ -1,0 +1,23 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: #ddd;
+  justify-content: center;
+}
+
+.card {
+  width: 3.125rem;
+  height: 1.875rem;
+  background: #ccc;
+  margin: 0.625rem;
+  padding: 0.625rem;
+
+  text-align: center;
+  font-weight: bold;
+  border-radius: 30%;
+}
+
+.enabled {
+  background-color: green;
+}
